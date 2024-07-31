@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebsiteOn Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="dashboard">
+        <header class="header">
+            <div class="logo"><i class="fas fa-chart-line"></i> WebsiteOn</div>
+            <nav class="nav">
+                <a href="#overview"><i class="fas fa-home"></i> Overview</a>
+                <a href="#performance"><i class="fas fa-tachometer-alt"></i> Performance</a>
+                <a href="#security"><i class="fas fa-shield-alt"></i> Security</a>
+                <a href="#analytics"><i class="fas fa-chart-bar"></i> Analytics</a>
+                <a href="#insights"><i class="fas fa-lightbulb"></i> Insights</a>
+                <a href="#settings"><i class="fas fa-cogs"></i> Settings</a>
+            </nav>
+            <div class="user-profile"><i class="fas fa-user"></i> User Profile</div>
+        </header>
+
+        <aside>
+            <ul>
+                <li><a href="#overview"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
+                <li><a href="#users"><i class="fas fa-users"></i> Users</a></li>
+                <li><a href="#reports"><i class="fas fa-file-alt"></i> Reports</a></li>
+                <li><a href="#settings"><i class="fas fa-cogs"></i> Settings</a></li>
+            </ul>
+        </aside>
+
+        <main>
+            <section id="overview">
+                <h1>Overview</h1>
+                <div class="card">
+                    <h2><i class="fas fa-users"></i> Total Users</h2>
+                    <p>1500</p>
+                </div>
+                <div class="card">
+                    <h2><i class="fas fa-user-check"></i> Active Users</h2>
+                    <p>1200</p>
+                </div>
+                <div class="card">
+                    <h2><i class="fas fa-clipboard-list"></i> Recent Activities</h2>
+                    <ul>
+                        <li>User A logged in</li>
+                        <li>User B updated profile</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h2><i class="fas fa-bell"></i> Notifications</h2>
+                    <ul>
+                        <li>New message from User C</li>
+                    </ul>
+                </div>
+            </section>
+            <section id="performance">
+                <h2><i class="fas fa-tachometer-alt"></i> Performance Monitoring</h2>
+                <div class="card">
+                    <h3>Uptime Status</h3>
+                    <p>99.9%</p>
+                </div>
+                <div class="card">
+                    <h3>Server Response Time</h3>
+                    <img src="response-time-graph.png" alt="Server Response Time">
+                </div>
+                <div class="card">
+                    <h3>Load Time Statistics</h3>
+                    <img src="load-time-chart.png" alt="Load Time Statistics">
+                </div>
+                <div class="card">
+                    <h3>Traffic Analysis</h3>
+                    <img src="traffic-pie-chart.png" alt="Traffic Analysis">
+                </div>
+            </section>
+            <section id="security">
+                <h2><i class="fas fa-shield-alt"></i> Security Monitoring</h2>
+                <div class="card">
+                    <h3>Malware Detection</h3>
+                    <p>Status: No threats detected</p>
+                </div>
+                <div class="card">
+                    <h3>Blocklist Status</h3>
+                    <p>Checked: OK</p>
+                </div>
+                <div class="card">
+                    <h3>SSL Certificate Status</h3>
+                    <p>Valid until: 2025-12-31</p>
+                </div>
+                <div class="card">
+                    <h3>DNS Configuration</h3>
+                    <p>Warnings: None</p>
+                </div>
+            </section>
+            <section id="analytics">
+                <h2><i class="fas fa-chart-bar"></i> Analytics and Reports</h2>
+                <div class="card">
+                    <h3>Traffic Sources</h3>
+                    <img src="traffic-sources-bar-chart.png" alt="Traffic Sources">
+                </div>
+                <div class="card">
+                    <h3>User Behavior</h3>
+                    <img src="user-behavior-heatmap.png" alt="User Behavior">
+                </div>
+                <div class="card">
+                    <h3>Page Performance Insights</h3>
+                    <p>Top Pages: Page 1, Page 2</p>
+                </div>
+                <div class="card">
+                    <h3>Customizable Reports</h3>
+                    <p>Generate and download reports</p>
+                </div>
+            </section>
+            <section id="insights">
+                <h2><i class="fas fa-lightbulb"></i> Actionable Insights</h2>
+                <div class="card">
+                    <h3>Performance Improvements</h3>
+                    <ul>
+                        <li>Optimize images on Page 1</li>
+                        <li>Minimize JavaScript on Page 2</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Security Enhancements</h3>
+                    <ul>
+                        <li>Enable 2FA</li>
+                        <li>Update CMS</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Historical Data Comparison</h3>
+                    <img src="historical-data-graph.png" alt="Historical Data">
+                </div>
+            </section>
+            <section id="settings">
+                <h2><i class="fas fa-cogs"></i> User Settings</h2>
+                <div class="card">
+                    <h3>Account Management</h3>
+                    <p>Edit profile, change password</p>
+                    <form>
+                        <label><input type="radio" name="role" value="admin"> Admin</label>
+                        <label><input type="radio" name="role" value="user"> User</label>
+                    </form>
+                </div>
+                <div class="card">
+                    <h3>Notification Preferences</h3>
+                    <p>Manage notification settings</p>
+                </div>
+                <div class="card">
+                    <h3>Customizable Dashboard Views</h3>
+                    <p>Customize layout and sections</p>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>© 2024 WebsiteOn | <a href="#privacy">Privacy Policy</a> | <a href="#terms">Terms of Service</a></p>
+        </footer>
+    </div>
+</body>
+</html>
